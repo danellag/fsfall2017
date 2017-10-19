@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { height: 100%; width: 100%; margin: 0;}
+/* resets */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+html, body, p, h1, h2, h3, h4, h5, h6,  dl, dt, dd, ol, ul, li, fieldset, form, label, input {margin: 0;padding: 0;	font-size: 13px; font-family: Arial, Helvetica, sans-serif;font-weight: normal;color: #333;}
+a, a:visited {text-decoration:none; color: #7cd2e2}
+ul, ol {list-style: none;}
+img, fieldset { border:0; display:block; max-width: 100%;}
+h2 {font-size: 24px; font-weight:normal; letter-spacing: 5px;}
+p {font-size: 15px; margin: 10px 0;}
+
+/*header*/ 
+header {width: 100%; height:115px; box-shadow: 5px 5px 5px #eee; text-align:center;background:#fff; z-index:-1;}
+header img {position:relative;border-radius: 100px; width: 150px; height:150px; border: 1px solid #eee; box-shadow: 0px 5px 5px #eee; margin: 30px auto 0}
+
+/*nav*/ 
+ul.nav { margin-top: -40px;}
+ul.nav li {display: inline-block; width: 49%; text-align:center;}
+ul.nav li a {font-size: 22px; font-weight: normal; letter-spacing: 3px;}
+
+/*columns */ 
+
+.lf-col, .rt-col {display: inline-block; margin: 0 auto 50px; width: 49%; vertical-align: top;}
+.rt-col .info {width: 70%; margin: 100px auto 20px;}
+
+.lf-col {text-align:center;}
+.lf-col .first-img {margin: 140px auto 0;}
+.lf-col .pair-img img {display:inline-block; margin: 10px;}
+
+span.fancy {font-family: 'Courgette', cursive; font-weight: bold;color: #7cd2e2; font-size: 30px; }
