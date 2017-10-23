@@ -6,7 +6,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html, body, p, h1, h2, h3, h4, h5, h6,  dl, dt, dd, ol, ul, li, fieldset, form, label, input {margin: 0;padding: 0;	font-size: 13px; font-family: Arial, Helvetica, sans-serif;font-weight: normal;color: #333;}
 a, a:visited {text-decoration:none; color: #7cd2e2}
 ul, ol {list-style: none;}
-img, fieldset { border:0; display:block; max-width: 100%;}
+img, fieldset { border:0; display:block; max-width: 97%;}
 h2 {font-size: 24px; font-weight:normal; letter-spacing: 5px;}
 p {font-size: 15px; margin: 10px 0;}
 
@@ -21,11 +21,11 @@ ul.nav li a {font-size: 22px; font-weight: normal; letter-spacing: 3px;}
 
 /*columns */ 
 
-.lf-col, .rt-col {display: inline-block; margin: 0 auto 50px; width: 49%; vertical-align: top;}
+.lf-col, .rt-col {display: inline-block; margin: 0 .3% 50px; width: 49%; vertical-align: top;}
 .rt-col .info {width: 70%; margin: 100px auto 20px;}
 
 .lf-col {text-align:center;}
 .lf-col .first-img {margin: 140px auto 0;}
-.lf-col .pair-img img {display:inline-block; margin: 10px;}
+.lf-col .pair-img img {display:inline-block; width: 47%; margin: 10px 1%;}
 
 span.fancy {font-family: 'Courgette', cursive; font-weight: bold;color: #7cd2e2; font-size: 30px; }
